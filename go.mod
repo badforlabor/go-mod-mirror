@@ -1,12 +1,9 @@
 module github.com/badforlabor/go-mod-mirror
 
 replace (
-	golang.org/x/image v0.0.0-20180926015637-991ec62608f3 => github.com/golang/image v0.0.0-20180926015637-991ec62608f3
-	golang.org/x/crypto v0.0.0-20180904163835-0709b304e793 => github.com/golang/crypto v0.0.0-20180904163835-0709b304e793
-	golang.org/x/sys v0.0.0-20181011152604-fa43e7bc11ba => github.com/golang/sys v0.0.0-20181011152604-fa43e7bc11ba
-	
 	golang.org/x/benchmarks v0.0.0-20171114163036-be9ad216f68e => github.com/golang/benchmarks v0.0.0-20171114163036-be9ad216f68e
 	golang.org/x/blog v0.0.0-20181015202704-8663ebbad975 => github.com/golang/blog v0.0.0-20181015202704-8663ebbad975
+	golang.org/x/crypto v0.0.0-20180904163835-0709b304e793 => github.com/golang/crypto v0.0.0-20180904163835-0709b304e793
 	golang.org/x/crypto v0.0.0-20181015023909-0c41d7ab0a0e => github.com/golang/crypto v0.0.0-20181015023909-0c41d7ab0a0e
 	golang.org/x/debug v0.0.0-20180921164333-547453c34fb1 => github.com/golang/debug v0.0.0-20180921164333-547453c34fb1
 	golang.org/x/image v0.0.0-20180926015637-991ec62608f3 => github.com/golang/image v0.0.0-20180926015637-991ec62608f3
@@ -15,7 +12,7 @@ replace (
 	golang.org/x/oauth2 v0.0.0-20180724155351-3d292e4d0cdc => github.com/golang/oauth2 v0.0.0-20180724155351-3d292e4d0cdc
 	golang.org/x/perf v0.0.0-20180704124530-6e6d33e29852 => github.com/golang/perf v0.0.0-20180704124530-6e6d33e29852
 	golang.org/x/review v0.0.0-20181014232125-5745d819bd5f => github.com/golang/review v0.0.0-20181014232125-5745d819bd5f
-	golang.org/x/sync v0.0.0-20180314180146-1d60e4601c6f => github.com/golangsync v0.0.0-20180314180146-1d60e4601c6f
+	golang.org/x/sync v0.0.0-20180314180146-1d60e4601c6f => github.com/golang/sync v0.0.0-20180314180146-1d60e4601c6f
 	golang.org/x/sys v0.0.0-20181011152604-fa43e7bc11ba => github.com/golang/sys v0.0.0-20181011152604-fa43e7bc11ba
 	golang.org/x/text v0.3.0 => github.com/golang/text v0.3.0
 	golang.org/x/time v0.0.0-20180412165947-fbb02b2291d2 => github.com/golang/time v0.0.0-20180412165947-fbb02b2291d2
